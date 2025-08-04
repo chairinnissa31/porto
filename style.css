@@ -1,0 +1,132 @@
+:root {
+  --baby-pink: #fddde6;
+  --pink-dark: #f8a5c2;
+  --white: #ffffff;
+  --font-main: 'Quicksand', sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-main);
+  background-color: var(--baby-pink);
+  color: #444;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  background: var(--white);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(255, 192, 203, 0.3);
+  margin-top: 50px;
+}
+
+header {
+  text-align: center;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid var(--pink-dark);
+  margin-bottom: 20px;
+}
+
+h1 span {
+  color: var(--pink-dark);
+}
+
+.ig-link {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: var(--pink-dark);
+  color: var(--white);
+  text-decoration: none;
+  border-radius: 25px;
+  transition: background-color 0.3s;
+}
+
+.ig-link:hover {
+  background-color: #f58ab6;
+}
+
+section {
+  margin-top: 40px;
+}
+
+section h2 {
+  color: var(--pink-dark);
+  margin-bottom: 10px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+  color: #777;
+}
+
+.extra h2 {
+  color: var(--pink-dark);
+  margin-top: 25px;
+}
+
+.extra ul {
+  padding-left: 20px;
+  list-style-type: '💫 ';
+}
+
+.extra p {
+  line-height: 1.6;
+}
+
+.button-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.cute-btn {
+  padding: 12px 20px;
+  background-color: #ffd1dc;
+  border: none;
+  border-radius: 30px;
+  color: #444;
+  font-size: 16px;
+  font-family: 'Quicksand', sans-serif;
+  text-decoration: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.cute-btn:hover {
+  background-color: #ffc0cb;
+  transform: scale(1.05);
+  color: #000;
+}
+
+.cute-btn:active {
+  transform: scale(0.97);
+  background-color: #ffb6c1;
+}
+
+.back-btn {
+  background-color: #cdeaff;
+  color: #333;
+  font-size: 14px;
+  margin-top: 30px;
+}
+
+.back-btn:hover {
+  background-color: #b3e5fc;
+  color: #000;
+}
